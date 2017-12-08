@@ -1,0 +1,281 @@
+/* CSS reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+li {
+	list-style-type: none;
+}
+
+a,
+a:visited,
+a:active,
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+/*topbar styling */
+
+#topbar-container {
+	width: 100%;
+	background-color: #fff;
+	height: 41px;
+}
+
+#topbar {
+	width: 1010px;
+	margin: 0 auto;
+}
+
+#logo {
+	height: 100%;
+	float: left;
+	padding: 7.5px;
+	padding-right: 8px;
+}
+
+#logo-image {
+	float: left;
+}
+
+.topbar-section {
+	height: 41px;
+	float: left;
+	border-left: 1px solid #CCC;
+	font-weight: bold;
+	padding: 12.5px;
+}
+
+#signin-image {
+	width: 19px;
+	height: auto;
+	float: left;
+	margin-top: -1px;
+	margin-right: 8px;
+	margin-left: 4px;
+}
+
+#signin {
+	width: 168px;
+}
+
+#signin:hover {
+	border-bottom: 4px solid #1188BB;
+}
+
+#news:hover {
+	border-bottom: 4px solid #992211;
+}
+
+#sport:hover {
+	border-bottom: 4px solid
+}
+
+#weather:hover {
+	border-bottom: 4px solid #88CCEE;
+}
+
+#shop:hover {
+	border-bottom: 4px solid #2897E5;
+}
+
+#earth:hover,
+#travel:hover,
+#topbar-more:hover {
+	border-bottom: 4px solid #262626
+}
+
+#topbar-more {
+	width: 130px;
+}
+
+#search {
+	height: 41px;
+	float: left;
+	border-left: 1px solid #CCC;
+	padding: 7.5px;
+	padding-left: 10px;
+}
+
+#search input {
+	background-color: #E4E4E4;
+	padding-left: 5px;
+	height: 25px;
+	width: 198px;
+	border: none;
+	font-weight: bold;
+	color: #333333;
+}
+
+/*news heading*/
+
+#heading-container {
+	width: 100%;
+	height: 56px;
+	background-color: #BB1919;
+	border-top: 1px solid #CCC;
+}
+
+#news-heading {
+	width: 1010px;
+	margin: 0 auto;
+}
+
+#news-heading-image {
+	margin-left: 7px;
+	margin-top: 12px;
+}
+
+/*navbar styling*/
+
+#nav-container {
+	width: 100%;
+	height: 35.5px;
+	background-color: #A91717;
+}
+
+#navbar {
+	width: 1010px;
+	margin: 0 auto;
+}
+
+.nav-item,
+#tech {
+	float: left;
+	padding-top: 12px;
+	height: 35.5px;
+	width: auto;
+}
+
+.navbar-section span {
+	font-size: 14.5px;
+	color: #fff;
+	font-weight: 400;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-right: 1px solid #BB4545;
+}
+
+#first-nav-item span {
+	padding-left: 0;
+	padding-left: 8px;
+}
+
+.nav-item:hover,
+#tech {
+	border-bottom: 4px solid #fff;
+}
+
+#navbar-more div {
+	margin-top: -3px;
+}
+
+#navbar-more span {
+	border-right: none;
+}
+
+#navbar-more:hover {
+	border: none;
+	background-color: #000;
+}
+
+/*main content*/
+
+#main-container {
+	width: 100%;
+	background-color: #fff;
+}
+
+#main-content {
+	width: 1010px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-left: 8px;
+}
+
+#tech-heading {
+	width: 100px;
+	border-bottom: 3px solid #BB1919;
+	padding-bottom: 2px;
+}
+
+#tech-heading h1 {
+	font-weight: 200;
+	font-size: 20px;
+}
+
+#headline {
+	font-size: 32px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	line-height: 1;
+	letter-spacing: -.5px;
+	color: rgb(104, 104, 104);
+}
+
+#main-article {
+	width: 656.5px;
+}
+
+#leaderboard {
+	width: 250px;
+	float: left;
+}
+
+#subhead,
+#date,
+#tech-link,
+#other-article {
+	color: rgb(64, 64, 64);
+}
+
+
+#subhead-container {
+	width: 250px;
+}
+
+#subhead {
+	width: 200px;
+	font-size: 14px;
+	line-height: 1.3;
+	margin-bottom: 10px;
+}
+
+#date {
+	margin-top: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #5A5A5A;
+}
+
+#tech-link {
+	padding-left: 3px;
+	color: #BB1919;
+}
+
+#tech-link:hover,
+#other-article:hover {
+	color: #1167A8;
+}
+
+#other-article {
+	font-size: 14px;
+}
+
+#leaderboard-image {
+	width: 392px;
+	height: auto;
+	float: left;
+}
+
+#leaderboard hr {
+	width: 40px;
+	border: .5px solid #BB1919;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
